@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Nav1 from './Navs/Nav1.js';
+import Forms from './Forms/Forms.js';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <Nav1 items={['Home', 'Services', 'About', 'Contact us']} />
+        <Forms />
       </div>
     );
   }
